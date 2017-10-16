@@ -1,3 +1,0 @@
-linker på alle sider: forrige - neste
-w3validator
-subnav må være en class
