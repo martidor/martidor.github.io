@@ -12,10 +12,41 @@ margin: 0px auto 0px auto;
 }
 
 .project {
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 
 .mainTitle {
-    text-align: center;
     margin: 40px 0px 40px 0px;
+}
+
+img.mycyfapp {
+    width: 230px;
+}
+
+img.lydbelastning {
+    width: 230px;
+    max-height: 403px;
+}
+
+img.tts {
+    width: 230px;
+    max-height: 403px;
+}
+
+img.sudoku{
+    width: 230px;
+}
+
+img.turistguide {
+    width: 500px;
+}
+
+img.designhjem {
+    width: 230px;
+    max-height: 457px;
+}
+
+img.designgenser {
+    width: 230px;
+    max-height: 457px;
 }
