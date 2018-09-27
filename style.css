@@ -22,11 +22,13 @@ margin: 0px auto 0px auto;
 
 img.mycyfapp {
     width: 230px;
+    margin-right: 10px;
 }
 
 img.lydbelastning {
     width: 230px;
     max-height: 403px;
+    margin-right: 10px;
 }
 
 img.tts {
@@ -45,11 +47,23 @@ img.turistguide {
 img.designhjem {
     width: 230px;
     max-height: 457px;
+    margin-right: 4px;
 }
 
 img.designgenser {
     width: 230px;
     max-height: 457px;
+}
+
+img.masteroppgave {
+    width: 230px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+img.masteroppgave_1 {
+    outline: 2px solid rgb(239, 239, 239);
+    outline-offset: -2px;
 }
 
 @media only screen and (max-width: 1160px) {
