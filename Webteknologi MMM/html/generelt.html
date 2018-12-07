@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/greeting.js" type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/map.js" type="text/javascript"></script>
+    <script src ="js/dropdown.js" type="text/javascript"></script>
+
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+
+<title>Generell informasjon | turist.no</title>
+
+</head>
+<body>
+    <section id="menu">
+        <ul class="topnav">
+           <li><a href="index.html">Hjem</a></li>
+
+            <li>
+                <a href="#">Om Trondheim</a>
+                    <ul class="subnav">
+                        <li><a href="generelt.html">Generelt</a></li>
+                        <li><a href="historie.html">Historie</a></li>
+                    </ul>
+            </li>
+
+            <li>
+                <a href="#">Attraksjoner</a>
+                <ul class="subnav">
+                    <li><a href="attraksjoner/tyholttaarnet.html">Tyholttårnet</a></li>
+                    <li><a href="attraksjoner/nidarosdomen.html">Nidarosdomen</a></li>
+                    <li><a href="attraksjoner/festningen.html">Festningen</a></li>
+                    <li><a href="attraksjoner/trondheimtorg.html">Trondheim Torg</a></li>
+                    <li><a href="attraksjoner/munkholmen.html">Munkholmen</a></li>
+                    <li><a href="attraksjoner/studentersamfundet.html">Studentersamfundet</a></li>
+                    <li><a href="attraksjoner/solsiden.html">Solsiden</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Spisesteder</a>
+                <ul class="subnav">
+                    <li><a href="spisesteder/baklandet_skydsstation.html">Baklandet Skydsstation</a></li>
+                    <li><a href="spisesteder/credo.html">Credo</a></li>
+                    <li><a href="spisesteder/palmehaven.html">Palmehaven</a></li>
+                    <li><a href="spisesteder/sponhuset.html">Sponhuset</a></li>
+                    <li><a href="spisesteder/tavern.html">Tavern</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Utesteder</a>
+                <ul class="subnav">
+                    <li><a href="utesteder/dengodenabo.html">Den Gode Nabo</a></li>
+                    <li><a href="utesteder/samfundet.html">Studentersamfundet</a></li>
+                    <li><a href="utesteder/studio26.html">Studio 26</a></li>
+                    <li><a href="utesteder/trondheim_mikrobryggeri.html">Trondheim Mikrobryggeri</a></li>
+                </ul>
+
+            </li>
+
+            <li><a href="galleri/galleri.html">Galleri</a></li>
+            <li><a href="ordliste.html">Trøndersk Ordliste</a></li>
+            <li><a href="tilbakemelding.php">Tilbakemelding</a></li>
+            <li><a href="sitemap.html">Sidekart</a></li>
+            <li><div id="greet">
+                    <div id="message"></div>
+                    <div id="clock"></div>
+              </div>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="sidebar">
+        <iframe id="forecast_embed" height="205" width="200" src="http://forecast.io/embed/#lat=63.4310&amp;lon=-10.3921&amp;name=Trondheim&amp;units=ca"> </iframe> 
+        <!--http://forecast.io/#/f/63.4310,10.3921 http://blog.forecast.io/forecast-embeds/--> 
+
+        <a href="historie.html" class="nextbutton">&rarr;<div class="test">Neste</div></a>
+
+    </section>
+
+    <section id="content">
+        <header> 
+                <img src="images/header.png" alt="byvaapen">
+        </header>
+
+        <h2>Generelt om Trondheim</h2>
+        <div id="map_canvas" style="width:590px;height:380px;border-radius:10px;"></div>
+
+        <p>Trondheim ligger i Sør-Trøndelag fylke, ved Nidelvas utløp i Trondheimsfjorden. 
+        Selv om byen ligger langt nord – bare 500 kilometer fra polarsirkelen – så er den begunstiget med Golfstrømmens varme. 
+        Navnet Trondheim kommer av det norrøne Þróndheimr som betyr hjemsted for de sterke og fruktbare. Rosesymbolet i forskjellige utgaver har vært i bruk siden middelalderen som byens symbol. På 1700-tallet ble den fembladete rosen tatt i bruk som bysymbol og den pryder i dag byflagget.</p>
+        
+        <div><img id="pic" src="images/midtbyen.jpg" alt="ntnu.edu" style="float:left;margin-right:10px"></div>
+
+        <p>Trondheim ble grunnlagt av vikingkongen Olav Tryggvason i 997 og var Norges hovedstad i 200 år.
+        Byen ble erkebispesete i 1152 og samme år ble også landets første skole, katedralskolen, grunnlagt. 
+        Byen utviklet seg raskt til å bli et ledende handelssentrum for distriktet og den rollen har byen den dag i dag.
+        Trondheim er, som den største byen i regionen, et naturlig handelssentrum. 
+        Her finnes alt fra små spesielle nisjebutikker til mange store varehus og shoppingsentre.</p>
+
+        <p>Byen har skiftet navn mange ganger. 
+        Det eldste kjente er Nidaros, som betyr byen ved elven Nids utløp. 
+        I senmiddelalderen begynte man å bruke Trondheim -  «trøndernes hjem". 
+        I dansketiden (1450 - 1814) ble navnet stavet «Trondhjem", men i dagligtale het den bare Byen eller Staden.
+        I 1930/31 var det en stor navnestrid rundt spørsmålet om byen skulle hete Nidaros eller Trondhjem. 
+
+        Etter mye fram og tilbake endte det med et kompromiss; navnet ble Trondheim. 
+        Men selv om Trondheim brukes offisielt, omtaler de fleste innbyggere fremdeles byen som Trondhjem og seg selv som trondhjemmere. </p>
+
+        <div><img id="pic" src="images/view.jpg" alt="ntnu.edu" style="float:right;margin-right:180px"></div>
+
+        <p>Trondheim er Norges tredje største by med ca. 182 000 innbyggere (2014) samt et stort antall tilflyttede studenter. Hver sjette innbygger er student og gjør det faktiske folketallet betydelig høyere. Studentene bidrar til å gjøre den tusen år gamle byen ungdommelig.
+        Trondheim blir ofte kalt Norges Teknologihovedstad.</p>
+        <p>NTNU, Norges Naturvitenskapelige Universitet og forskningsstiftelsen SINTEF fortjener den største æren for dette. NTNU har et nasjonalt ansvar for utdanning og forskning innenfor teknologi. 80% av landets sivilingeniører er utdannet her og mange tidligere NTNU-studenter har idag viktige stillinger innenfor business og industri. NTNU har ekstra fokus på områder hvor norsk teknologisk kompetansenivå ligger helt på høyde med eller i front av de beste internasjonale standarder. Dette gjelder blant annet energi og miljø, medisin, marin og maritim forskning og utvikling samt informasjons- og kommunikasjonsteknologi.</p>
+
+        <div><img id="pic" src="images/immatri.jpg" alt="tu.no" style="width:80%"></div>
+
+        <p>Karakteristisk for Trondheim:
+            <ul>
+                <li>Elveslyngen som omkranser Midtbyen og de gamle bryggene ved elvas utløp</li>
+                <li>Den majestetiske Nidarosdomen</li>
+                <li>De brede gatene</li>
+                <li>Den høye søylen med statuen av vikingkongen Olav Tryggvason midt på Torvet</li>
+                <li>Gamle Bybro med sine utskårne portaler</li>
+                <li>Trehusene i Midtbyen og på Bakklandet</li>
+            </ul>
+        </p>
+
+    </section>
+
+    <section id="footer">
+    <p class="footerp"> Laget av martinbn, uyendn og martidor</p>
+    <p class="footerp"> Webteknologi IT2805 </p>
+    </section>
+
+    
+
+</body>
+</html>
