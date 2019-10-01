@@ -1,6 +1,6 @@
 body {
     background-image: url("./images/botanical-dirt-illustration.jpg"), url("./images/close-up-dry-pine-cones.jpg");
-    background-size: 75%, 40%;
+    background-size: contain, 40%;
     background-repeat: no-repeat, no-repeat;
     background-color: white;
     background-position: top left, 100% 95%;
